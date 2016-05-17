@@ -16,7 +16,7 @@
 #'    date  = date,
 #'    value = value
 #')
-#' df %>% group_by(id) %>% tlag(valuel = tlag(value, n = 1, time = date)
+#' df %>% group_by(id) %>% tlag(valuel = tlag(value, n = 1, time = date))
 #' @name tlead-tlag
 NULL
 
